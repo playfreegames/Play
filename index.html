@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play your favourite games online</title>
+    <style>
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://i.ibb.co/875fw2z/games.png");
+        }
+
+        /* container Styling*/
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 95vh;
+            width: 95%;
+            z-index: 100;
+        }
+
+        .container h1 {
+            font-size: 5rem;
+            color: rgb(255, 255, 255);
+            margin-bottom: 0;
+        }
+
+        .container h3 {
+            color: rgb(255, 255, 255);
+        }
+
+        /* Sign-up button styling */
+        .click {
+            background-color: rgb(231, 36, 36);
+            font-size: 18px;
+            padding: 12px;
+            width: 170px;
+            height: 60px;
+            border: none;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: white;
+            font-weight: 800;
+            font-family: 'Times New Roman', Times, serif;
+            transition: all 0.5s;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: rgb(231, 88, 88);
+            font-size: 20px;
+            width: 200px;
+        }
+
+        button a {
+            color: white;
+            text-decoration: none;
+        }
+
+        @media (max-width: 720px) {
+            .container h1 {
+                font-size: 3rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1> Play Your Favourite Games</h1>
+        <h3>Over 1000+ Games To Play</h3>
+        <!-- Trigger button to open the popup -->
+        <!-- <button onclick="openPopup()" class="sub">Play Now</button> -->
+        <a class="click" href="https://playabledownload.com/1000games">Play Now</a>
+    </div>
+</body>
+
+</html>
